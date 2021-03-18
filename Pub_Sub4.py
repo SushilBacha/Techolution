@@ -38,7 +38,7 @@ print("in Main Loop")
 try:
     while True:
         time = datetime.now(IST)
-        value = " now : " + str(time) + ", name : Sushil BACHA"
+        value = " now : " + str(time) + "\nname : Sushil BACHA"
         print("Publishing...")
         client.publish("IoTAssignment_{sushil_bacha}", value)
         print("Published")
